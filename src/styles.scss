@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+
+
+$logibbutton: #001e49;
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.loginButton {
+    background-color: $logibbutton !important;
+    color: white !important;
+}
