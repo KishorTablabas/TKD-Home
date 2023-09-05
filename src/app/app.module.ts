@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './Views/home/home.component';
 import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
+import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbNavModule
+    NgbNavModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

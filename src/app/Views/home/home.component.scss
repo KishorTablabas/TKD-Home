@@ -69,7 +69,8 @@ hr {
 
 .nav-tabs {
     border-bottom: 0px !important;
-    background-color: gray;
+    background-color: rgb(235,235,235);
+    font-weight: 800;
 
 }
 
@@ -82,3 +83,19 @@ hr {
     color: red;
     font-weight: 800;
 }
+
+#slider p
+{
+    color: black;
+    font-weight: 500;
+}
+#mainform input ::placeholder 
+{
+    font-weight: 900;
+}
+
+.form-control:focus
+{
+   box-shadow: none;
+}
+

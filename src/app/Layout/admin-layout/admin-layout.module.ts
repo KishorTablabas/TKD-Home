@@ -13,7 +13,8 @@ import { ComponentsModule } from "../../Components/components.module";
     imports: [
         CommonModule,
         AdminLayoutRoutingModule,
-        ComponentsModule
+        ComponentsModule,
+        
     ]
 })
 export default class AdminLayoutModule { }
