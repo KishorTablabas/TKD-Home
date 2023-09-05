@@ -53,9 +53,32 @@ hr {
     margin-right: auto;
     background-color: #b7d0e2;
 }
+
 .hr1 {
     width: 25%;
     margin-left: 0px;
     margin-right: auto;
     background-color: #b7d0e2;
+}
+
+
+// [type=button]:not(:active),
+// button:not(:disabled) {
+//     background-color: gray;
+// }
+
+.nav-tabs {
+    border-bottom: 0px !important;
+    background-color: gray;
+
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-tabs .nav-link.active
+{
+    color: red;
+    font-weight: 800;
 }
