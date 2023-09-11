@@ -5,7 +5,7 @@ import { AdminLayoutComponent } from './Layout/admin-layout/admin-layout.compone
 
 const routes: Routes = [
   {
-    path: '', redirectTo: "home", pathMatch: "full"
+    path: '', redirectTo: "homepage", pathMatch: "full"
   },
   {
     path:'',

@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './Views/home/home.component';
 import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { SwiperModule } from 'swiper/angular';
+import { HomepageComponent } from './Views/homepage/homepage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,
