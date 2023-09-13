@@ -1,0 +1,194 @@
+<section>
+    <div class="card mainCard">
+        <div class="container-fluid">
+
+            <div class="row mainrow">
+                <div class="col-md-6">
+                    <div class="one-stop-solution"> One stop solution</div>
+                    <div class="for-all-logistic">for all logistic needs</div>
+                    <div class="lorem-ipsum-dolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Cras
+                        hendrerit eu sapien in sollicitudin.</div>
+                    <div class="storelabels-parent">
+                        <img src="assets/StoreLabels.svg" class="img-fluid" alt="" srcset="">
+                        <img src="assets/StoreLabels (1).svg" class="img-fluid" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="assets/iphone-12-mini--black.svg" class="img-fluid mobile-image" alt="" srcset="">
+                </div>
+
+            </div>
+            <div class="imageK">
+                <img src="assets/K.svg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div>
+        <img class="vuesaxoutlinearrow-down-icon" alt="" src="assets/vuesax/outline/arrow-down.svg">
+    </div>
+</section>
+
+<section>
+    <div class="container-fluid">
+        <div class="mainTabs">
+
+            <div class="row">
+                <div class="col-md"></div>
+                <div class="col-md-12">
+                    <div class="tabbox">
+                        <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs ">
+                            <li [ngbNavItem]="1">
+                                <button ngbNavLink>Find a load</button>
+                                <ng-template ngbNavContent>
+                                    <form action="" class="m-3" id="mainform">
+
+                                        <div class="row g-3 align-items-center pb-3">
+                                            <div class="col-12 col-md-5">
+                                                <label for="" class="form-label"><img src="assets/Indication.svg" alt=""
+                                                        class="indicators" srcset=""> Pick up location</label>
+                                                <input type="text" class="form-control" placeholder="Select a location"
+                                                    value="Mumbai, Maharashtra">
+                                            </div>
+                                            <div class="col-md-auto text-center">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                            <div class="col-12 col-md">
+                                                <label for="" class="form-label"> <img src="assets/Indication.svg"
+                                                        alt="" class="indicators" srcset="">Drop location</label>
+                                                <input type="text" class="form-control"
+                                                    placeholder="Select a destination">
+                                            </div>
+                                            <div class="col-md-auto ">
+
+                                                <button class="btn">Search
+                                                    <i class="fa-solid fa-arrow-right"></i></button>
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </ng-template>
+                            </li>
+                            <li [ngbNavItem]="2">
+                                <button ngbNavLink> Book a lorry</button>
+                                <ng-template ngbNavContent>
+                                    <form action="" class="m-3" id="mainform">
+
+                                        <div class="row g-3 align-items-center pb-3">
+                                            <div class="col-12 col-md-5">
+                                                <label for="" class="form-label"> <img src="assets/Indication.svg"
+                                                        alt="" class="indicators" srcset="">Pick up location</label>
+                                                <input type="text" class="form-control" placeholder="Select a location"
+                                                    value="Mumbai, Maharashtra">
+                                            </div>
+                                            <div class="col-md-auto text-center">
+                                                <i class="fa-solid fa-arrow-right"></i>
+                                            </div>
+                                            <div class="col-12 col-md">
+                                                <label for="" class="form-label"> <img src="assets/Indication.svg"
+                                                        alt="" class="indicators" srcset="">Drop location</label>
+                                                <input type="text" class="form-control"
+                                                    placeholder="Select a destination">
+                                            </div>
+                                            <div class="col-md-auto text-center">
+
+                                                <button class="btn"
+                                                    style="background-color: #001e49;color: white;">Search
+                                                    <i class="fa-solid fa-arrow-right"></i></button>
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </ng-template>
+                            </li>
+
+                        </ul>
+
+                        <div [ngbNavOutlet]="nav" class="mt-2"></div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md"></div>
+        </div>
+    </div>
+</section>
+
+
+
+<section>
+    <div class="container-fluid">
+
+        <div class="who">
+            <div class="who-are-we">
+                Who are we?
+            </div>
+            <div class="we-are-indias">
+                <b class="we-are-indias">We are India’s fastest growing community</b>
+            </div>
+            <div class="mapimage">
+                <img src="assets/India_Isometric.svg" alt="" class="img-fluid" srcset="">
+                <!-- <div class="allcards">
+
+                <div class="row justify-content-center">
+                    <div class="col-md-auto">
+                        <div class="card threeCards">
+                            <div class="mainNumber">3000+</div>
+                            <div class="transporters">transporters</div>
+                            <div class="peopleImages">
+                                <img src="assets/Ellipse 254.svg" alt="" class="img-fluid" srcset="">
+                                <img src="assets/Ellipse 255.svg" alt="" class="img-fluid frame-item" srcset="">
+                                <img src="assets/Ellipse 256.svg" alt="" class="img-fluid frame-item" srcset="">
+                                <img src="assets/Ellipse 257.svg" alt="" class="img-fluid frame-item" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto">
+                        <div class="card threeCards">
+                            <div class="mainNumber">690+</div>
+                            <div class="transporters">locations covered</div>
+                            <div class="peopleImages">
+                                <img src="assets/Ellipse 254.svg" alt="" class="img-fluid" srcset="">
+                                <img src="assets/Ellipse 255.svg" alt="" class="img-fluid frame-item" srcset="">
+                                <img src="assets/Ellipse 256.svg" alt="" class="img-fluid frame-item" srcset="">
+                                <img src="assets/Ellipse 257.svg" alt="" class="img-fluid frame-item" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto">
+                        <div class="card threeCards">
+                            <div class="mainNumber">72k+</div>
+                            <div class="transporters">inquiries till date</div>
+                            <div class="peopleImages">
+                                <img src="assets/Ellipse 254.svg" alt="" class="img-fluid" srcset="">
+                                <img src="assets/Ellipse 255.svg" alt="" class="img-fluid frame-item" srcset="">
+                                <img src="assets/Ellipse 256.svg" alt="" class="img-fluid frame-item" srcset="">
+                                <img src="assets/Ellipse 257.svg" alt="" class="img-fluid frame-item" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> -->
+
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-auto" *ngFor="let item of allcards">
+                    <div class="card threeCards mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title mainNumber">{{item.number}}</h5>
+                            <h6 class="card-subtitle transporters">{{item.name}}</h6>
+                            <div class="peopleImages">
+                                <img *ngFor="let item1 of item.images,index as i" [ngClass]="{'frame-item': i >= 1}"
+                                    [src]="item1" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
