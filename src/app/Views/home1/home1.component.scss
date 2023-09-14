@@ -1,309 +1,716 @@
-.mainrow {
-    padding: 30px 80px;
-}
-
-.mainCard {
-    position: relative;
-    border-radius: 20px;
-    margin: 0px 52px 114px 52px;
-    border: none;
-    background-color: #f5f5f5;
-    background-image: url("../../../assets/objects.svg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    height: 85vmin;
-    // background-size: contain;
-}
-
-.one-stop-solution {
-    font-size: 56px;
-    letter-spacing: -0.02em;
-    font-weight: 800;
-    font-family: Poppins;
-    color: #001e49;
-    margin-top: 50px;
-
-}
-
-.for-all-logistic {
-    position: relative;
-    font-size: 56px;
-    letter-spacing: -0.02em;
-    font-weight: 800;
-    font-family: Poppins;
-    color: #c3262c;
-    margin-top: -20px;
-
-}
-
-
-.lorem-ipsum-dolor {
-    font-size: 16px;
-    line-height: 28px;
-    font-family: Poppins;
-    color: #000;
-    margin-bottom: 40px;
-}
-
-.storelabels-parent {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 12px;
-}
-
-
-.imageK {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
-.imageK img {
-    border-radius: 20px;
-}
-
-.mobile-image {
-    margin-left: 70px;
-}
-
-
-.vuesaxoutlinearrow-down-icon {
-    width: 100%;
-    height: 24px;
-}
-
-.mainTabs {
-    margin: 70px 193px 114px 193px;
-
-}
-
-.form-control:focus {
-    box-shadow: none;
-}
-
-.tabbox {
-    box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-
-}
-
-.mainTabs button {
-    width: 100%;
-    padding: 16px 12px;
-    border: 0;
-    font-family: Poppins;
-    font-size: 18px;
-
-
-}
-
-.mainTabs form .form-label {
-    font-size: 12px;
-    font-weight: 600;
-    font-family: Poppins;
-}
-
-.mainTabs form input {
-    font-family: Poppins;
-    background-color: white;
-    font-weight: 800;
-    border: 0;
-}
-
-.mainTabs form button {
-    background-color: #001e49;
-    color: #fff;
-    padding: 14px 32px;
-}
-
-.mainTabs form button i {
-    margin-left: 8px;
-}
-
-.indicators {
-    vertical-align: bottom;
-}
-
-.nav-tabs li {
-    width: 50%;
-}
-
-.nav-tabs {
-    border-bottom: 0px !important;
-    background: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), #fff;
-    font-weight: 800;
-
-}
-
-.nav-link {
-    color: black;
-}
-
-.nav-tabs .nav-link.active {
-    color: #c3262c;
-    font-weight: 800;
-}
-
-.nav-tabs li {
-    border: 0px;
-}
-
-.who {
-    margin: 0px 193px;
-
-}
-
-.who-are-we {
-    font-size: 28px;
-    font-family: Poppins;
-    color: #001e49;
-    text-align: center;
-}
-
-.we-are-indias {
-    font-size: 36px;
-    font-family: Poppins;
-    color: #c3262c;
-    text-align: center;
-    margin-top: -4px;
-
-}
-
-.mapimage {
-    margin-top: 44px;
-    position: relative;
-}
-
-.threeCards {
-    border: 0;
-    border-radius: 20px;
-    background-color: #fff;
-    box-shadow: 8px 14px 44px rgba(0, 0, 0, 0.1);
-    padding: 16px 20px;
-    gap: 16px;
-    font-size: 36px;
-    color: #000;
-    font-family: Poppins;
-}
-
-.mainNumber {
-    width: 100%;
-    position: relative;
-    font-size: 36px;
-    letter-spacing: -0.04em;
-    font-weight: 800;
-    font-family: Poppins;
-    color: #000;
-    text-align: center;
-    display: inline-block;
-}
-
-.transporters {
-    font-size: 14px;
-    letter-spacing: 0.17em;
-    text-transform: uppercase;
-    font-family: Poppins;
-    color: #000;
-    text-align: center;
-}
-
-.peopleImages {
-    text-align: center;
-}
-
-.peopleImages .frame-item {
-    border-radius: 50%;
-    width: 24px;
-    height: 24px;
-    // object-fit: cover;
-    margin-left: -8px;
-
-}
-
-.allcards {
-    position: absolute;
-    bottom: -100px;
-}
-
-.separator-icon {
-    position: relative;
-    width: 100%;
-    height: 1px;
-    }
-
-@media (max-width:786px) {
-
-    .who {
-        margin: 0px;
-    }
-
-    .vuesaxoutlinearrow-down-icon {
-        width: 100%;
-        height: 24px;
-        margin-top: -10rem;
-    }
-
-
-
-    .mobile-image {
-        margin-left: 0px;
-    }
-
-    .one-stop-solution {
-        font-size: 33px;
-        letter-spacing: -0.02em;
-        font-weight: 800;
-        font-family: Poppins;
-        color: #001e49;
-        margin-top: auto;
-
-    }
-
-    .for-all-logistic {
-        font-size: 33px;
-        letter-spacing: -0.02em;
-        font-weight: 800;
-        font-family: Poppins;
-        color: #c3262c;
-        margin-top: -20px;
-
-    }
-
-    .mainrow {
-        text-align: center;
-        padding: 0px;
-    }
-
-    .mainCard {
-        border-radius: 0px;
-        // margin: 114px 0px;
-        margin: 0px 0px 114px 0px;
-
-        height: 100%;
-
-    }
-
-    .mainTabs {
-        margin: -40px 0px 114px 0px;
-
-    }
-
-    .imageK img {
-        border-radius: 0px;
-    }
-
-    .storelabels-parent {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: center;
-        gap: 12px;
-    }
-
-
-
-}
+ .swiper-horizontal>.swiper-pagination-bullets,
+ .swiper-pagination-bullets.swiper-pagination-horizontal {
+     bottom: 10px;
+     right: 50px;
+     width: 100%;
+ }
+
+ .mainrow {
+     padding: 30px 80px;
+ }
+
+ .mainCard {
+     position: relative;
+     border-radius: 20px;
+     margin: 0px 52px 114px 52px;
+     border: none;
+     background-color: #f5f5f5;
+     background-image: url("../../../assets/objects.svg");
+     background-repeat: no-repeat;
+     background-position: bottom;
+     height: 85vmin;
+     // background-size: contain;
+ }
+
+ .one-stop-solution {
+     font-size: 56px;
+     letter-spacing: -0.02em;
+     font-weight: 800;
+     font-family: Poppins;
+     color: #001e49;
+     margin-top: 50px;
+
+ }
+
+ .for-all-logistic {
+     font-size: 56px;
+     letter-spacing: -0.02em;
+     font-weight: 800;
+     font-family: Poppins;
+     color: #c3262c;
+     margin-top: -20px;
+     text-wrap: nowrap;
+
+ }
+
+
+ .lorem-ipsum-dolor {
+     font-size: 16px;
+     line-height: 28px;
+     font-family: Poppins;
+     color: #000;
+     margin-bottom: 40px;
+ }
+
+ .storelabels-parent {
+    margin-top: 40px;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     justify-content: flex-start;
+     gap: 12px;
+ }
+
+
+ .imageK {
+     position: absolute;
+     bottom: 0;
+     left: 0;
+ }
+
+ .middleImage {
+     padding-inline: -40px;
+ }
+
+ .imageK img {
+     border-radius: 20px;
+ }
+
+ .mobile-image {
+     margin-left: 70px;
+ }
+
+
+ .vuesaxoutlinearrow-down-icon {
+     width: 100%;
+     height: 24px;
+ }
+
+ .mainTabs {
+     margin: 70px 193px 114px 193px;
+
+ }
+
+ .form-control:focus {
+     box-shadow: none;
+ }
+
+ .tabbox {
+     box-shadow: 0px 0px 44px rgba(0, 0, 0, 0.1);
+     border-radius: 12px;
+
+ }
+
+ .mainTabs button {
+     width: 100%;
+     padding: 16px 12px;
+     border: 0;
+     font-family: Poppins;
+     font-size: 18px;
+
+
+ }
+
+ .mainTabs form .form-label {
+     font-size: 12px;
+     font-weight: 600;
+     font-family: Poppins;
+ }
+
+ .mainTabs form input {
+     font-family: Poppins;
+     background-color: white;
+     font-weight: 800;
+     border: 0;
+ }
+
+ .mainTabs form button {
+     background-color: #001e49;
+     color: #fff;
+     padding: 14px 32px;
+ }
+
+ .mainTabs form button i {
+     margin-left: 8px;
+ }
+
+ .indicators {
+     vertical-align: bottom;
+ }
+
+ .nav-tabs li {
+     width: 50%;
+ }
+
+ .nav-tabs {
+     border-bottom: 0px !important;
+     background: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), #fff;
+     font-weight: 800;
+
+ }
+
+ .nav-link {
+     color: black;
+ }
+
+ .nav-tabs .nav-link.active {
+     color: #c3262c;
+     font-weight: 800;
+ }
+
+ .nav-tabs li {
+     border: 0px;
+ }
+
+ .who {
+     margin: 0px 193px;
+
+ }
+
+ .who-are-we {
+     font-size: 28px;
+     font-family: Poppins;
+     color: #001e49;
+     text-align: center;
+ }
+
+ .we-are-indias {
+     font-size: 36px;
+     font-family: Poppins;
+     color: #c3262c;
+     text-align: center;
+     margin-top: -4px;
+
+ }
+
+ .mapimage {
+     margin-top: 44px;
+     position: relative;
+ }
+
+ .threeCards {
+     border: 0;
+     border-radius: 20px;
+     background-color: #fff;
+     box-shadow: 8px 14px 44px rgba(0, 0, 0, 0.1);
+     padding: 16px 20px;
+     gap: 16px;
+     font-size: 36px;
+     color: #000;
+     font-family: Poppins;
+ }
+
+ .mainNumber {
+     width: 100%;
+     position: relative;
+     font-size: 36px;
+     letter-spacing: -0.04em;
+     font-weight: 800;
+     font-family: Poppins;
+     color: #000;
+     text-align: center;
+     display: inline-block;
+ }
+
+ .transporters {
+     font-size: 14px;
+     letter-spacing: 0.17em;
+     text-transform: uppercase;
+     font-family: Poppins;
+     color: #000;
+     text-align: center;
+ }
+
+ .peopleImages {
+     text-align: center;
+ }
+
+ .peopleImages .frame-item {
+     border-radius: 50%;
+     width: 24px;
+     height: 24px;
+     // object-fit: cover;
+     margin-left: -8px;
+
+ }
+
+ .allcards {
+     margin-top: -65px;
+ }
+
+ .separator-icon {
+     position: relative;
+     width: 100%;
+     height: 1px;
+ }
+
+ .why {
+     margin-inline: 193px;
+     margin-top: 100px;
+     position: relative;
+     height: auto;
+ }
+
+ .why-choose-us {
+     font-size: 28px;
+     font-family: Poppins;
+     color: #001e49;
+     text-align: center;
+ }
+
+ .because-we-are {
+     font-size: 36px;
+     font-family: Poppins;
+     color: #c3262c;
+     text-align: center;
+ }
+
+ .allimages {
+     margin-top: 40px;
+     z-index: 1;
+ }
+
+ .Kimage {
+     position: absolute;
+     right: -110px;
+     bottom: -40px;
+ }
+
+ .video {
+     margin-inline: 96px;
+ }
+
+ .image {
+     text-align: center;
+     position: relative;
+     z-index: -1;
+ }
+
+ .image>img {
+     border-radius: 20px;
+ }
+
+ .its-our-mission {
+     font-size: 36px;
+     letter-spacing: -0.02em;
+     font-weight: 300;
+     font-family: Poppins;
+     color: #fff;
+     text-align: center;
+     opacity: 0.8;
+ }
+
+ .that-makes-us {
+     font-size: 52px;
+     letter-spacing: -0.02em;
+     font-weight: 800;
+     font-family: Poppins;
+     color: #fff;
+     text-align: center;
+     margin-top: -10px;
+ }
+
+ .textinframe {
+     position: absolute;
+     top: 20%;
+     width: 100%;
+
+ }
+
+
+ .playButton {
+     position: absolute;
+     width: 100%;
+     top: 55%;
+
+
+ }
+
+ .playButton>img {
+     position: relative;
+     width: 36px;
+     background-color: #fff;
+     height: 36px;
+     overflow: hidden;
+     flex-shrink: 0;
+     object-fit: cover;
+     border-radius: 100px;
+ }
+
+ .add-images-at {
+     position: relative;
+     font-size: 12px;
+     font-weight: 600;
+     font-family: Poppins;
+     color: #fff;
+     text-align: center;
+ }
+
+ .testi {
+     margin-top: 100px;
+     margin-inline: 193px;
+ }
+
+ .want-to-know {
+     font-size: 28px;
+     font-family: Poppins;
+     color: #001e49;
+     text-align: center;
+ }
+
+ .heres-what-our {
+     font-size: 36px;
+     font-family: Poppins;
+     color: #c3262c;
+     text-align: center;
+     margin-top: -4px;
+
+ }
+
+ swiper {
+     margin-top: 40px;
+ }
+
+
+ .mr-ramesh-tekchandani {
+     width: 100%;
+     font-size: 24px;
+     letter-spacing: -0.02em;
+     display: inline-block;
+     font-family: Poppins;
+     color: #000;
+     text-align: left;
+ }
+
+ .director-mamta-traders {
+     width: 100%;
+     position: relative;
+     font-size: 16px;
+     letter-spacing: -0.02em;
+     font-family: Poppins;
+     background: linear-gradient(rgba(44, 54, 63, 0.6), rgba(44, 54, 63, 0.6)), #fff;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     text-align: left;
+     display: inline-block;
+     margin-top: -4px;
+
+ }
+
+ .lorem-ipsum-dolor {
+     margin: 0;
+ }
+
+ .lorem-ipsum-dolor-container {
+     width: 100%;
+     position: relative;
+     font-size: 14px;
+     line-height: 22px;
+     display: inline-block;
+     font-family: Poppins;
+     color: #000;
+     text-align: left;
+ }
+
+
+ .footer {
+     position: relative;
+     margin-inline: 52px;
+     margin-top: 114px;
+     margin-bottom: 40px;
+     background: #000000;
+     padding-inline: 80px;
+     padding-top: 60px;
+     padding-bottom: 60px;
+     border-radius: 20px;
+ }
+
+ .help-us-help {
+     font-size: 56px;
+     letter-spacing: -0.02em;
+     font-weight: 300;
+     font-family: Poppins;
+     color: #fff;
+     text-align: left;
+     opacity: 0.5;
+ }
+
+ .join-us-today {
+     font-size: 56px;
+     letter-spacing: -0.02em;
+     font-weight: 800;
+     font-family: Poppins;
+     color: #fff;
+     text-align: left;
+     margin-top: -20px;
+
+ }
+
+ .lorem-ipsum-text {
+     font-size: 16px;
+     line-height: 28px;
+     font-family: Poppins;
+     color: #fff;
+     text-align: left;
+     display: inline-block;
+     opacity: 0.6;
+ }
+
+
+ .playimages {
+     margin-top: 40px;
+     margin-bottom: 40px;
+ }
+
+ hr {
+     width: 25%;
+     margin-left: auto;
+     margin-right: auto;
+     background-color: #ffffff;
+ }
+
+ .hr1 {
+     width: 25%;
+     margin-left: 0px;
+     margin-right: auto;
+     background-color: #ffffff;
+ }
+
+
+ .disclaimer-parent {
+     display: flex;
+ }
+
+ .disclaimer {
+     font-size: 14px;
+     text-decoration: underline;
+     line-height: 22px;
+     font-family: Poppins;
+     color: #fff;
+     text-align: left;
+     margin-right: 20px;
+ }
+
+ .get-in-touch {
+     width: 100%;
+     font-size: 22px;
+     display: inline-block;
+     font-family: Poppins;
+     color: #fff;
+     text-align: left;
+ }
+
+ .contactform {
+     margin-top: 12px;
+ }
+
+ .form-input {
+     border: 0px;
+ }
+
+ .nameInput,
+ .emailInput,
+ textarea {
+     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #fff;
+     color: #ffffff;
+ }
+
+ .submitButton {
+     width: 100%;
+     position: relative;
+     border-radius: 4px;
+     background-color: #c3262c;
+     display: flex;
+     flex-direction: row;
+     padding: 14px 32px;
+     box-sizing: border-box;
+     align-items: center;
+     justify-content: center;
+     text-align: left;
+     font-size: 14px;
+     color: #fff;
+     font-family: Poppins;
+ }
+
+ .socialclass {
+     margin-top: 36px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .iconClasses {
+     margin-left: 20px;
+ }
+
+ .our-social-presence {
+     position: relative;
+     font-size: 14px;
+     line-height: 22px;
+     font-family: Poppins;
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #fff;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     text-align: left;
+ }
+
+
+
+
+ @media (max-width:786px) {
+
+
+     .playimages {
+         text-align: center;
+     }
+
+
+     .help-us-help {
+         font-size: 52px;
+         letter-spacing: -0.02em;
+         font-weight: 300;
+         font-family: Poppins;
+         color: #fff;
+         text-align: center;
+         opacity: 0.5;
+     }
+
+     .join-us-today {
+         font-size: 52px;
+         letter-spacing: -0.02em;
+         font-weight: 800;
+         font-family: Poppins;
+         color: #fff;
+         text-align: center;
+         margin-top: -20px;
+
+     }
+
+
+     .footer {
+         margin-inline: 0px;
+         margin-top: 50px;
+         background: #000000;
+         padding-inline: 0px;
+         padding-top: 30px;
+         padding-bottom: 30px;
+         border-radius: 20px;
+     }
+
+
+     .testi {
+         margin-inline: 0px;
+     }
+
+     .playButton {
+         position: absolute;
+         width: 100%;
+         top: 56%;
+
+
+     }
+
+     .its-our-mission {
+         font-size: 18px;
+         letter-spacing: -0.02em;
+         font-weight: 300;
+         font-family: Poppins;
+         color: #fff;
+         text-align: center;
+         opacity: 0.8;
+     }
+
+     .that-makes-us {
+         font-size: 25px;
+         letter-spacing: -0.02em;
+         font-weight: 800;
+         font-family: Poppins;
+         color: #fff;
+         text-align: center;
+     }
+
+
+     .video {
+         margin-inline: 0px;
+     }
+
+     .why {
+         margin-inline: 0px;
+         margin-top: 100px;
+     }
+
+     .allcards {
+         margin-top: 0px;
+     }
+
+     .who {
+         margin: 0px;
+     }
+
+     .vuesaxoutlinearrow-down-icon {
+         width: 100%;
+         height: 24px;
+         margin-top: -10rem;
+     }
+
+
+
+     .mobile-image {
+         margin-left: 0px;
+     }
+
+     .one-stop-solution {
+         font-size: 33px;
+         letter-spacing: -0.02em;
+         font-weight: 800;
+         font-family: Poppins;
+         color: #001e49;
+         margin-top: auto;
+
+     }
+
+     .for-all-logistic {
+         font-size: 33px;
+         letter-spacing: -0.02em;
+         font-weight: 800;
+         font-family: Poppins;
+         color: #c3262c;
+         margin-top: -20px;
+
+     }
+
+     .mainrow {
+         text-align: center;
+         padding: 0px;
+     }
+
+     .mainCard {
+         border-radius: 0px;
+         // margin: 114px 0px;
+         margin: 0px 0px 114px 0px;
+
+         height: 100%;
+
+     }
+
+     .mainTabs {
+         margin: -40px 0px 114px 0px;
+
+     }
+
+     .imageK img {
+         border-radius: 20px;
+     }
+
+     .storelabels-parent {
+         width: 100%;
+         display: flex;
+         flex-direction: row;
+         align-items: flex-start;
+         justify-content: center;
+         gap: 12px;
+     }
+
+
+
+ }

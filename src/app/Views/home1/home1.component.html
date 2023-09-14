@@ -131,53 +131,10 @@
             </div>
             <div class="mapimage">
                 <img src="assets/India_Isometric.svg" alt="" class="img-fluid" srcset="">
-                <!-- <div class="allcards">
-
-                <div class="row justify-content-center">
-                    <div class="col-md-auto">
-                        <div class="card threeCards">
-                            <div class="mainNumber">3000+</div>
-                            <div class="transporters">transporters</div>
-                            <div class="peopleImages">
-                                <img src="assets/Ellipse 254.svg" alt="" class="img-fluid" srcset="">
-                                <img src="assets/Ellipse 255.svg" alt="" class="img-fluid frame-item" srcset="">
-                                <img src="assets/Ellipse 256.svg" alt="" class="img-fluid frame-item" srcset="">
-                                <img src="assets/Ellipse 257.svg" alt="" class="img-fluid frame-item" srcset="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-auto">
-                        <div class="card threeCards">
-                            <div class="mainNumber">690+</div>
-                            <div class="transporters">locations covered</div>
-                            <div class="peopleImages">
-                                <img src="assets/Ellipse 254.svg" alt="" class="img-fluid" srcset="">
-                                <img src="assets/Ellipse 255.svg" alt="" class="img-fluid frame-item" srcset="">
-                                <img src="assets/Ellipse 256.svg" alt="" class="img-fluid frame-item" srcset="">
-                                <img src="assets/Ellipse 257.svg" alt="" class="img-fluid frame-item" srcset="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-auto">
-                        <div class="card threeCards">
-                            <div class="mainNumber">72k+</div>
-                            <div class="transporters">inquiries till date</div>
-                            <div class="peopleImages">
-                                <img src="assets/Ellipse 254.svg" alt="" class="img-fluid" srcset="">
-                                <img src="assets/Ellipse 255.svg" alt="" class="img-fluid frame-item" srcset="">
-                                <img src="assets/Ellipse 256.svg" alt="" class="img-fluid frame-item" srcset="">
-                                <img src="assets/Ellipse 257.svg" alt="" class="img-fluid frame-item" srcset="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div> -->
-
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center allcards">
                 <div class="col-md-auto" *ngFor="let item of allcards">
-                    <div class="card threeCards mb-3">
+                    <div class="card  threeCards mb-3">
                         <div class="card-body">
                             <h5 class="card-title mainNumber">{{item.number}}</h5>
                             <h6 class="card-subtitle transporters">{{item.name}}</h6>
@@ -191,4 +148,154 @@
             </div>
         </div>
     </div>
+</section>
+
+<section>
+    <div class="container-fluid">
+
+        <div class="why">
+            <div class="why-choose-us">Why choose us?</div>
+            <div class="because-we-are"><b>Because we are lorem ipsum a massatis</b></div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 allimages" *ngFor="let item of images,index as i ">
+                    <img [src]="item.img" class="img-fluid" [ngClass]="{'middleImage':(i===0 || i===2)}" alt=""
+                        srcset="">
+                </div>
+            </div>
+            <div class="Kimage d-none d-md-block">
+                <img src="assets/K(1).svg" alt="" class="img-fluid" srcset="">
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container-fluid">
+        <div class="video">
+            <div class="image">
+
+                <img src="assets/image 1.svg" class="img-fluid" alt="" srcset="">
+                <div class="textinframe">
+                    <div class="its-our-mission">It’s our mission</div>
+                    <div class="that-makes-us">That makes us reliable</div>
+                </div>
+                <div class="playButton">
+                    <img src="assets/Play.svg" class="img-fluid mb-2" alt="" srcset="">
+                    <p class="add-images-at p-0">Play Video</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="container-fluid">
+
+        <div class="testi">
+            <div>
+                <div class="want-to-know">Want to know more?</div>
+                <div class="heres-what-our"><b>Here’s what our user’s say about us</b></div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-md"></div>
+                    <div class="col-md-12">
+                        <swiper #swiper (swiper)="onSwiper($event)" (slideChange)="onSlideChange()" [config]="config">
+                            <ng-template swiperSlide *ngFor="let item of slides">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card border-0 mb-3">
+                                            <img src="{{item.image}}" height="300" alt="" srcset="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+
+
+                                        <div class="card h-100 border-0">
+                                            <div class="mr-ramesh-tekchandani"><b>Mr. Ramesh Tekchandani</b></div>
+                                            <div class="director-mamta-traders">Director, Mamta Traders</div>
+                                            <i class="lorem-ipsum-dolor-container">
+                                                <p class="lorem-ipsum-dolor">Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit. Integer nisi est, ullamcorper condimentum enim ut.
+                                                </p>
+                                                <p class="lorem-ipsum-dolor">&nbsp;</p>
+                                                <p class="lorem-ipsum-dolor">Donec orci augue, imperdiet nec mi vitae,
+                                                    mollis tincidunt ligula. Vestibulum nec condimentum mi. Nulla
+                                                    aliquet ornare nisl, vitae blandit nisi pulvinar luctus.</p>
+                                            </i>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </ng-template>
+
+
+                        </swiper>
+                    </div>
+                    <div class="col-md"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="footer">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="help-us-help">Help us help you</div>
+                    <div class="join-us-today">Join us today</div>
+                    <div class="lorem-ipsum-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Cras
+                        hendrerit eu sapien in sollicitudin.</div>
+                    <div class="playimages">
+                        <img src="assets/StoreLabels.svg" alt="" srcset="">
+                        <img src="assets/StoreLabels (1).svg" style="margin-left: 12px;" alt="" srcset="">
+                    </div>
+                    <div>
+                        <hr class="hr1">
+                    </div>
+                    <div class="disclaimer-parent">
+                        <div><a href="" class="disclaimer">Disclaimer</a></div>
+                        <div><a href="" class="disclaimer">Privacy policy</a></div>
+                        <div><a href="" class="disclaimer">Terms of use</a></div>
+                        <div><a href="" class="disclaimer">Careers</a></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <b class="get-in-touch">Get in touch</b>
+                    <form action="" class="contactform">
+                        <form class="row g-3">
+                            <div class="col-md-12">
+                                <input type="text" class="form-control form-input nameInput" placeholder="Name">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="email" placeholder="Email" class="form-control form-input emailInput">
+                            </div>
+                            <div class="col-12">
+                                <textarea type="text" rows="3" class="form-control form-input"
+                                    placeholder="Enter Message (300 character max)"></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn submitButton">Submit</button>
+                            </div>
+                        </form>
+                        <div class="socialclass">
+                            <div class="our-social-presence">Our social presence</div>
+                            <div>
+                                <img src="assets/Social Media.svg" class="img-fluid" alt="" srcset="">
+                                <img src="assets/Social Media(1).svg" class="img-fluid iconClasses" alt="" srcset="">
+                                <img src="assets/Social Media(2).svg" class="img-fluid iconClasses" alt="" srcset="">
+                                <img src="assets/Social Media(4).svg" class="img-fluid iconClasses" alt="" srcset="">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="imageK">
+            <img src="assets/K.svg" alt="" srcset="">
+        </div>
+    </div>
+
 </section>
