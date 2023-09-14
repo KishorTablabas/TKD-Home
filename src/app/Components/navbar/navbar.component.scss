@@ -1,8 +1,15 @@
-nav{
+nav {
     padding-inline: 35px !important;
 }
-ul li
-{
+
+
+ul li {
     color: black;
     font-weight: bold;
+}
+
+@media (max-width:768px) {
+    nav {
+        padding-inline: 0px !important;
+    }
 }

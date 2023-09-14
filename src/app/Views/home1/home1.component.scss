@@ -53,7 +53,7 @@
  }
 
  .storelabels-parent {
-    margin-top: 40px;
+     margin-top: 40px;
      width: 100%;
      display: flex;
      flex-direction: row;
@@ -507,6 +507,7 @@
 
  .form-input {
      border: 0px;
+     color: #ffffff;
  }
 
  .nameInput,
@@ -555,6 +556,10 @@
  }
 
 
+ .swiper-pagination-bullet-active {
+    --swiper-theme-color:red ;
+    background:red ;
+ }
 
 
  @media (max-width:786px) {

@@ -72,17 +72,18 @@ export class Home1Component {
 
   config: SwiperOptions = {
     slidesPerView: 1,
-    // spaceBetween: 50,
     loop: true,
     autoplay: {
       delay: 2000,
-      disableOnInteraction: false
+      disableOnInteraction: false,
+
     },
     pagination: {
       type: "bullets",
       clickable: true,
-      bulletClass: 'my-custom-pagination-item',
-
+      bulletClass: 'swiper-pagination-bullet',
+      bulletActiveClass: 'swiper-pagination-bullet-active',
+      el: '.swiper-custom-pagination',
     }
   };
   onSwiper(swiper: any) {
@@ -94,13 +95,13 @@ export class Home1Component {
 
   slides = [
     {
-      image: 'assets/slide.jpeg'
+      image: 'assets/Screenshot 2023-08-05 at 8.55 1.svg'
     },
     {
-      image: 'assets/slide.jpeg'
+      image: 'assets/Screenshot 2023-08-05 at 8.55 1.svg'
     },
     {
-      image: 'assets/slide.jpeg'
+      image: 'assets/Screenshot 2023-08-05 at 8.55 1.svg'
     },
   ]
 
