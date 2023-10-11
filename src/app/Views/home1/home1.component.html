@@ -3,7 +3,7 @@
         <div class="container-fluid">
 
             <div class="row mainrow">
-                <div class="col-md-6">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-8">
                     <div class="one-stop-solution"> One stop solution</div>
                     <div class="for-all-logistic">for all logistic needs</div>
                     <div class="lorem-ipsum-dolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Cras
@@ -13,7 +13,8 @@
                         <img src="assets/StoreLabels (1).svg" class="img-fluid" alt="" srcset="">
                     </div>
                 </div>
-                <div class="col-md-6 text-center" data-aos="zoom-in" data-aos-duration="3000">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-4 text-center" data-aos="zoom-in"
+                    data-aos-duration="1000">
                     <img src="assets/iphone-12-mini--black.svg" class="img-fluid mobile-image" alt="" srcset="">
                 </div>
 
@@ -31,7 +32,7 @@
     </div>
 </section>
 
-<section data-aos="fade-down" data-aos-duration="2000">
+<section data-aos="fade-down" data-aos-duration="1000">
     <div class="container-fluid">
         <div class="mainTabs">
 
@@ -123,19 +124,22 @@
     <div class="container-fluid">
 
         <div class="who">
-            <div class="who-are-we" data-aos="fade-down" data-aos-duration="2000">
+            <div class="who-are-we" data-aos="fade-down" data-aos-duration="1000">
                 Who are we?
             </div>
-            <div class="we-are-indias" data-aos="fade-down" data-aos-duration="2000">
+            <div class="we-are-indias" data-aos="fade-down" data-aos-duration="1000">
                 <b class="we-are-indias">We are India’s fastest growing community</b>
             </div>
-            <div class="mapimage" data-aos="fade-up" data-aos-duration="2000">
+            <div class="mapimage" data-aos="fade-up" data-aos-duration="1000">
                 <img src="assets/India_Isometric.svg" alt="" class="img-fluid" srcset="">
             </div>
-            <div class="row justify-content-center allcards" data-aos="fade-down" data-aos-duration="2000">
-                <div class="col-md-auto" *ngFor="let item of allcards">
+
+
+            <div class=" row allcards" data-aos="fade-down" data-aos-duration="1000">
+                <div class="col-lg-1 col-md-1"></div>
+                <div class="col-lg col-md " *ngFor="let item of allcards">
                     <div class="card  threeCards mb-3">
-                        <div class="card-body">
+                        <div class="card-body p-0">
                             <h5 class="card-title mainNumber">{{item.number}}</h5>
                             <h6 class="card-subtitle transporters">{{item.name}}</h6>
                             <div class="peopleImages">
@@ -145,7 +149,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-1 col-md-1"></div>
+
             </div>
+
+
         </div>
     </div>
 </section>
@@ -154,21 +162,26 @@
     <div class="container-fluid">
 
         <div class="why">
-            <div class="why-choose-us" data-aos="fade-down" data-aos-duration="2000">Why choose us?</div>
-            <div class="because-we-are" data-aos="fade-down" data-aos-duration="2000"><b>Because we are lorem ipsum a massatis</b></div>
-            <div class="row justify-content-center">
-                <div class="col-md-4 allimages" *ngFor="let item of images,index as i ">
-                    <img [src]="item.img" class="img-fluid" [ngClass]="{'middleImage':(i===0 || i===2)}" alt=""
+            <div class="why-choose-us" data-aos="fade-down" data-aos-duration="1000">Why choose us?</div>
+            <div class="because-we-are" data-aos="fade-down" data-aos-duration="1000"><b>Because we are lorem ipsum a
+                    massatis</b></div>
+            <!-- <div class="row justify-content-center"> -->
+            <!-- <div class="col-md-4 col-sm-12 allimages text-center " *ngFor="let item of images,index as i ">
+                    <img [src]="item.img"  class=" mobileImages m-0 p-0" [ngClass]="{'middleImage':(i===0 || i===2)}" alt=""
                         srcset="">
-                </div>
+                </div> -->
+            <div>
+                <img src="assets/Frame 30.svg" style=" position: relative;z-index: 2;" class="img-fluid" alt="" srcset="">
             </div>
-            <div class="Kimage d-none d-md-block" data-aos="zoom-in-up" data-aos-duration="2000">
-                <img src="assets/K(1).svg" alt="" class="img-fluid" srcset="">
+            <!-- </div> -->
+            <div class="Kimage d-none  d-md-none d-lg-block" style="position: absolute;
+            z-index: 1;" data-aos="zoom-in-up" data-aos-duration="1000">
+                <img src="assets/K(1).svg" alt="" class="img-sm-fluid" srcset="">
             </div>
         </div>
     </div>
 </section>
-<section data-aos="zoom-in" data-aos-duration="2000">
+<section data-aos="zoom-in" data-aos-duration="1000">
     <div class="container-fluid">
         <div class="video">
             <div class="image">
@@ -193,8 +206,9 @@
 
         <div class="testi">
             <div>
-                <div class="want-to-know" data-aos="fade-down" data-aos-duration="2000">Want to know more?</div>
-                <div class="heres-what-our" data-aos="fade-down" data-aos-duration="2000"><b>Here’s what our user’s say about us</b></div>
+                <div class="want-to-know" data-aos="fade-down" data-aos-duration="1000">Want to know more?</div>
+                <div class="heres-what-our" data-aos="fade-down" data-aos-duration="1000"><b>Here’s what our user’s say
+                        about us</b></div>
             </div>
             <div>
                 <div class="row">
@@ -212,6 +226,9 @@
 
 
                                         <div class="card h-100 border-0">
+                                            <div class="mb-2">
+                                                <img src="assets/company.svg" class="img-fluid" alt="" srcset="">
+                                            </div>
                                             <div class="mr-ramesh-tekchandani"><b>Mr. Ramesh Tekchandani</b></div>
                                             <div class="director-mamta-traders">Director, Mamta Traders</div>
                                             <i class="lorem-ipsum-dolor-container">
@@ -239,7 +256,7 @@
     </div>
 </section>
 
-<section data-aos="fade-up" data-aos-duration="2000">
+<section data-aos="fade-up" data-aos-duration="1000">
     <div class="footer">
         <div class="container-fluid ">
             <div class="row">
@@ -262,7 +279,8 @@
                         <div><a href="" class="disclaimer">Careers</a></div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
                     <b class="get-in-touch">Get in touch</b>
                     <form action="" class="contactform">
                         <form class="row g-3">

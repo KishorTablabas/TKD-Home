@@ -8,6 +8,21 @@ ul li {
     font-weight: bold;
 }
 
+.home {
+    position: relative;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: Poppins;
+    color: #000;
+    text-align: left;
+}
+.active
+{
+    border-bottom: 2px solid red;
+}
+
+
+
 @media (max-width:768px) {
     nav {
         padding-inline: 0px !important;
