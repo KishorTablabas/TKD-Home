@@ -9,8 +9,6 @@
 
 .mainrow {
     padding: 30px 80px;
-    // height: 75vh;
-
 }
 
 .mainCard {
@@ -22,7 +20,7 @@
     background-image: url("../../../assets/objects.svg");
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 85vh;
+    height: calc(75vh) !important;
 
     // background-size: contain;
 }
@@ -85,7 +83,8 @@
 }
 
 .mobile-image {
-    margin-left: 0px;
+    margin-left: 30px;
+   object-fit:cover;
 }
 
 
@@ -253,7 +252,7 @@
 }
 
 .why {
-    margin-inline: 193px;
+    margin-inline: 225px;
     margin-top: 100px;
     position: relative;
     height: auto;
@@ -280,8 +279,12 @@
 
 .Kimage {
     position: absolute;
-    right: -93px;
+    right: -100px;
     bottom: -40px;
+    z-index: 1;
+    
+    // right: 100px;
+    // bottom: -40px;
 }
 
 .video {
