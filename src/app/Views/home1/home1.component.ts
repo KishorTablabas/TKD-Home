@@ -72,7 +72,7 @@ export class Home1Component {
 
   config: SwiperOptions = {
     slidesPerView: 1,
-    loop: true,
+    loop: false,
     autoplay: {
       delay: 2000,
       disableOnInteraction: false,
@@ -97,12 +97,12 @@ export class Home1Component {
     {
       image: 'assets/Screenshot 2023-08-05 at 8.55 1.svg'
     },
-    {
-      image: 'assets/Screenshot 2023-08-05 at 8.55 1.svg'
-    },
-    {
-      image: 'assets/Screenshot 2023-08-05 at 8.55 1.svg'
-    },
+    // {
+    //   image: 'assets/Screenshot 2023-08-05 at 8.55 1.svg'
+    // },
+    // {
+    //   image: 'assets/Screenshot 2023-08-05 at 8.55 1.svg'
+    // },
   ]
 
   @ViewChild('swiper', { static: false }) swiper?: SwiperComponent;

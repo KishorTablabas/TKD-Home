@@ -16,12 +16,21 @@ ul li {
     color: #000;
     text-align: left;
 }
-.active
+ .active
 {
     border-bottom: 2px solid red;
 }
 
 
+.nav-link
+{
+    padding-top: 0.6rem !important;
+}
+
+.navbar-nav 
+{
+    --bs-nav-link-padding-y: 0.2rem !important;
+}
 
 @media (max-width:768px) {
     nav {

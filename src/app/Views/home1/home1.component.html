@@ -3,7 +3,7 @@
         <div class="container-fluid">
 
             <div class="row mainrow">
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-8">
+                <div class="col-xxl-6 col-xl-8 col-lg-8 col-md-8">
                     <div class="one-stop-solution"> One stop solution</div>
                     <div class="for-all-logistic">for all logistic needs</div>
                     <div class="lorem-ipsum-dolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Cras
@@ -13,9 +13,9 @@
                         <img src="assets/StoreLabels (1).svg" class="img-fluid" alt="" srcset="">
                     </div>
                 </div>
-                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-4 text-center" data-aos="zoom-in"
+                <div class="col-xxl-6 col-xl-4 col-lg-4 col-md-4 text-center" data-aos="zoom-in"
                     data-aos-duration="1000">
-                    <img src="assets/iphone-12-mini--black.svg" class="img-fluid mobile-image" alt="" srcset="">
+                    <img src="assets/iphone-12-mini--black.svg"  class="mobile-image" alt="" srcset="">
                 </div>
 
             </div>
@@ -142,6 +142,9 @@
                         <div class="card-body p-0">
                             <h5 class="card-title mainNumber">{{item.number}}</h5>
                             <h6 class="card-subtitle transporters">{{item.name}}</h6>
+                            <div class="border mt-3 w-25 mx-auto">
+
+                            </div>
                             <div class="peopleImages">
                                 <img *ngFor="let item1 of item.images,index as i" [ngClass]="{'frame-item': i >= 1}"
                                     [src]="item1" alt="" srcset="">
@@ -171,12 +174,13 @@
                         srcset="">
                 </div> -->
             <div>
-                <img src="assets/Frame 30.svg" style=" position: relative;z-index: 2;" class="img-fluid" alt="" srcset="">
+                <img src="assets/Frame 30.svg" style=" position: relative;z-index: 2;" class="img-fluid" alt=""
+                    srcset="">
             </div>
             <!-- </div> -->
             <div class="Kimage d-none  d-md-none d-lg-block" style="position: absolute;
             z-index: 1;" data-aos="zoom-in-up" data-aos-duration="1000">
-                <img src="assets/K(1).svg" alt="" class="img-sm-fluid" srcset="">
+                <img src="assets/K(1).svg" alt="" class="img-fluid" srcset="">
             </div>
         </div>
     </div>
@@ -231,15 +235,18 @@
                                             </div>
                                             <div class="mr-ramesh-tekchandani"><b>Mr. Ramesh Tekchandani</b></div>
                                             <div class="director-mamta-traders">Director, Mamta Traders</div>
-                                            <i class="lorem-ipsum-dolor-container">
-                                                <p class="lorem-ipsum-dolor">Lorem ipsum dolor sit amet, consectetur
+                                            <div class="lorem-ipsum-dolor-container">
+                                                <p class="lorem-ipsum-dolor1">Lorem ipsum dolor sit amet, consectetur
                                                     adipiscing elit. Integer nisi est, ullamcorper condimentum enim ut.
                                                 </p>
-                                                <p class="lorem-ipsum-dolor">&nbsp;</p>
-                                                <p class="lorem-ipsum-dolor">Donec orci augue, imperdiet nec mi vitae,
+                                                <p class="lorem-ipsum-dolor1">&nbsp;</p>
+                                                <p class="lorem-ipsum-dolor1">Donec orci augue, imperdiet nec mi vitae,
                                                     mollis tincidunt ligula. Vestibulum nec condimentum mi. Nulla
                                                     aliquet ornare nisl, vitae blandit nisi pulvinar luctus.</p>
-                                            </i>
+                                                <div class="frame">
+                                                    <img src="assets/Frame 35.svg" alt="" srcset="">
+                                                </div>
+                                            </div>
 
                                         </div>
                                     </div>
@@ -269,9 +276,6 @@
                         <img src="assets/StoreLabels.svg" alt="" srcset="">
                         <img src="assets/StoreLabels (1).svg" style="margin-left: 12px;" alt="" srcset="">
                     </div>
-                    <div>
-                        <hr class="hr1">
-                    </div>
                     <div class="disclaimer-parent">
                         <div><a href="" class="disclaimer">Disclaimer</a></div>
                         <div><a href="" class="disclaimer">Privacy policy</a></div>
@@ -285,7 +289,7 @@
                     <form action="" class="contactform">
                         <form class="row g-3">
                             <div class="col-md-12">
-                                <input type="text" class="form-control form-input nameInput" placeholder="Name">
+                                <input type="text" class="form-control form-input nameInput " placeholder="Name">
                             </div>
                             <div class="col-md-12">
                                 <input type="email" placeholder="Email" class="form-control form-input emailInput">
