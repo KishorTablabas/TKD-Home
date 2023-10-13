@@ -9,10 +9,12 @@
 
 .mainrow {
     padding: 30px 80px;
+    height: 75vh;
+
 }
 
 .mainCard {
-    position: relative;
+    // position: relative;
     border-radius: 20px;
     margin: 0px 52px 114px 52px;
     border: none;
@@ -20,7 +22,8 @@
     background-image: url("../../../assets/objects.svg");
     background-repeat: no-repeat;
     background-position: bottom;
-    height: 85vh;
+    // height: 85vh;
+
     // background-size: contain;
 }
 
@@ -277,7 +280,7 @@
 
 .Kimage {
     position: absolute;
-    right: -93px;
+    right: -38px;
     bottom: -40px;
 }
 
