@@ -20,7 +20,7 @@
     background-image: url("../../../assets/objects.svg");
     background-repeat: no-repeat;
     background-position: bottom;
-    height: calc(75vh) !important;
+    height: calc(85vh);
 
     // background-size: contain;
 }
@@ -84,7 +84,6 @@
 
 .mobile-image {
     margin-left: 30px;
-   object-fit:cover;
 }
 
 
@@ -282,7 +281,7 @@
     right: -100px;
     bottom: -40px;
     z-index: 1;
-    
+
     // right: 100px;
     // bottom: -40px;
 }
@@ -427,7 +426,7 @@ swiper {
     text-align: left;
 }
 
-.frame{
+.frame {
     margin-top: 30px;
 }
 
