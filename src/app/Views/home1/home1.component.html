@@ -1,21 +1,23 @@
 <section>
     <div class="card mainCard">
-        <div class="container-fluid" >
+        <div class="container-fluid">
 
             <div class="row mainrow">
                 <div class="col-xxl-6 col-xl-7 col-lg-7 col-md-7">
-                    <div class="one-stop-solution"> One stop solution</div>
-                    <div class="for-all-logistic">for all logistic needs</div>
-                    <div class="lorem-ipsum-dolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Cras
-                        hendrerit eu sapien in sollicitudin.</div>
+                    <div class="one-stop-solution">All logistic services </div>
+                    <div class="for-all-logistic">under one roof
+                    </div>
+                    <div class="lorem-ipsum-dolor">We will cover the A to Z range of your requirements. Be it pick, pack
+                        and ship or receive and store; let us do it all.</div>
                     <div class="storelabels-parent">
-                        <img src="assets/StoreLabels.svg" class="img-fluid" alt="" srcset="">
-                        <img src="assets/StoreLabels (1).svg" class="img-fluid" alt="" srcset="">
+                        <a href=""> <img src="assets/StoreLabels.svg" class="img-fluid" alt="" srcset=""></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.pdk.tkd" target="_blank"><img
+                                src="assets/StoreLabels (1).svg" class="img-fluid" alt="" srcset=""></a>
                     </div>
                 </div>
-                <div class="col-xxl-6 col-xl-5 col-lg-5 col-md-5 text-center"  data-aos="zoom-in"
+                <div class="col-xxl-6 col-xl-5 col-lg-5 col-md-5 text-center" data-aos="zoom-in"
                     data-aos-duration="1000">
-                    <img src="assets/iphone-12-mini--black.svg"  class="mobile-image" alt="" srcset="">
+                    <img src="assets/iphone-12-mini--black.svg" class="mobile-image" alt="" srcset="">
                 </div>
 
             </div>
@@ -125,10 +127,10 @@
 
         <div class="who">
             <div class="who-are-we" data-aos="fade-down" data-aos-duration="1000">
-                Who are we?
+                Wanna know us?
             </div>
             <div class="we-are-indias" data-aos="fade-down" data-aos-duration="1000">
-                <b class="we-are-indias">We are India’s fastest growing community</b>
+                <b class="we-are-indias">We are a speedy growing community with our speedy yet endless services.</b>
             </div>
             <div class="mapimage" data-aos="fade-up" data-aos-duration="1000">
                 <img src="assets/India_Isometric.svg" alt="" class="img-fluid" srcset="">
@@ -165,9 +167,9 @@
     <div class="container-fluid">
 
         <div class="why">
-            <div class="why-choose-us" data-aos="fade-down" data-aos-duration="1000">Why choose us?</div>
-            <div class="because-we-are" data-aos="fade-down" data-aos-duration="1000"><b>Because we are lorem ipsum a
-                    massatis</b></div>
+            <div class="why-choose-us" data-aos="fade-down" data-aos-duration="1000">Why count on us?</div>
+            <div class="because-we-are" data-aos="fade-down" data-aos-duration="1000"><b>Because we are the junction
+                    where your priorities meet our capabilities.</b></div>
             <!-- <div class="row justify-content-center"> -->
             <!-- <div class="col-md-4 col-sm-12 allimages text-center " *ngFor="let item of images,index as i ">
                     <img [src]="item.img"  class=" mobileImages m-0 p-0" [ngClass]="{'middleImage':(i===0 || i===2)}" alt=""
@@ -178,7 +180,7 @@
                     srcset="">
             </div>
             <!-- </div> -->
-            <div class="Kimage d-none  d-md-none d-lg-block "  data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="Kimage d-none  d-md-none d-lg-block " data-aos="zoom-in-up" data-aos-duration="1000">
                 <img src="assets/K(1).svg" alt="" class="img-fluid" srcset="">
             </div>
         </div>
@@ -191,13 +193,15 @@
 
                 <img src="assets/image 1.svg" class="img-fluid" alt="" srcset="">
                 <div class="textinframe">
-                    <div class="its-our-mission">It’s our mission</div>
-                    <div class="that-makes-us">That makes us reliable</div>
+                    <div class="its-our-mission">One stop logistic solution</div>
+                    <div class="that-makes-us">You ask it and we will serve it.<br> Your every single demand <br> is our
+                        command.
+                    </div>
                 </div>
-                <div class="playButton">
+                <!-- <div class="playButton">
                     <img src="assets/Play.svg" class="img-fluid mb-2" alt="" srcset="">
                     <p class="add-images-at p-0">Play Video</p>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -209,16 +213,17 @@
 
         <div class="testi">
             <div>
-                <div class="want-to-know" data-aos="fade-down" data-aos-duration="1000">Want to know more?</div>
-                <div class="heres-what-our" data-aos="fade-down" data-aos-duration="1000"><b>Here’s what our user’s say
-                        about us</b></div>
+                <div class="want-to-know" data-aos="fade-down" data-aos-duration="1000">Grow your business with us</div>
+                <div class="heres-what-our" data-aos="fade-down" data-aos-duration="1000"><b>Your needs are our skills.
+                        Let us combine the two and rise up together.
+                    </b></div>
             </div>
             <div>
                 <div class="row">
                     <div class="col-md"></div>
                     <div class="col-md-12">
                         <swiper #swiper (swiper)="onSwiper($event)" (slideChange)="onSlideChange()" [config]="config">
-                            <ng-template swiperSlide *ngFor="let item of slides">
+                            <ng-template swiperSlide *ngFor="let item of slides;index as i">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="card border-0 mb-3">
@@ -232,22 +237,24 @@
                                             <div class="mb-2">
                                                 <img src="assets/company.svg" class="img-fluid" alt="" srcset="">
                                             </div>
-                                            <div class="mr-ramesh-tekchandani"><b>Mr. Ramesh Tekchandani</b></div>
-                                            <div class="director-mamta-traders">Director, Mamta Traders</div>
+                                            <div class="mr-ramesh-tekchandani"><b>Mr. Bhavik Shah</b></div>
+                                            <!-- <div class="director-mamta-traders">Director, Mamta Traders</div> -->
                                             <div class="lorem-ipsum-dolor-container">
-                                                <p class="lorem-ipsum-dolor1">Lorem ipsum dolor sit amet, consectetur
-                                                    adipiscing elit. Integer nisi est, ullamcorper condimentum enim ut.
+                                                <p class="lorem-ipsum-dolor1">First kind of handy logistics app for
+                                                    agents, customer as well as small companies like us mostly deal in
+                                                    part loads.
                                                 </p>
                                                 <p class="lorem-ipsum-dolor1">&nbsp;</p>
-                                                <p class="lorem-ipsum-dolor1">Donec orci augue, imperdiet nec mi vitae,
-                                                    mollis tincidunt ligula. Vestibulum nec condimentum mi. Nulla
-                                                    aliquet ornare nisl, vitae blandit nisi pulvinar luctus.</p>
-                                                <div class="frame">
+                                                <p class="lorem-ipsum-dolor1"> Made business easy with this Handy app
+                                                    and saved money and manpower for running behind logistic needs.</p>
+                                                <!-- <div class="frame">
                                                     <img src="assets/Frame 35.svg" alt="" srcset="">
-                                                </div>
+                                                </div> -->
+
                                             </div>
 
                                         </div>
+
                                     </div>
                                 </div>
                             </ng-template>
@@ -269,11 +276,13 @@
                 <div class="col-md-6">
                     <div class="help-us-help">Help us help you</div>
                     <div class="join-us-today">Join us today</div>
-                    <div class="lorem-ipsum-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Cras
-                        hendrerit eu sapien in sollicitudin.</div>
+                    <div class="lorem-ipsum-text">We are very well equipped with manpower, technology and
+                        professionalism. Our goal is to satisfy our client’s needs through our best possible mode. Join
+                        us so we can help you and move ahead altogether.</div>
                     <div class="playimages">
                         <img src="assets/StoreLabels.svg" alt="" srcset="">
-                        <img src="assets/StoreLabels (1).svg" style="margin-left: 12px;" alt="" srcset="">
+                        <a href="https://play.google.com/store/apps/details?id=com.pdk.tkd"> <img
+                                src="assets/StoreLabels (1).svg" style="margin-left: 12px;" alt="" srcset=""></a>
                     </div>
                     <div class="disclaimer-parent">
                         <div><a href="" class="disclaimer">Disclaimer</a></div>
