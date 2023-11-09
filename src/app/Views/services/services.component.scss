@@ -1,0 +1,241 @@
+.feature-box-1 {
+  padding: 32px;
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+  margin: 15px 0;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+  top: 0;
+}
+.feature-box-1 * {
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+.feature-box-1 .icon {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  background: #fc5356;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 50%;
+  margin-bottom: 22px;
+  font-size: 27px;
+}
+.feature-box-1 .icon i {
+  line-height: 70px;
+}
+.feature-box-1 h5 {
+  color: #20247b;
+  font-weight: 600;
+}
+.feature-box-1 p {
+  margin: 0;
+}
+.feature-box-1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  border-radius: 10px;
+  width: 0;
+  background: #C3262C;
+  z-index: -1;
+  -moz-transition: ease all 0.35s;
+  -o-transition: ease all 0.35s;
+  -webkit-transition: ease all 0.35s;
+  transition: ease all 0.35s;
+}
+.feature-box-1:hover {
+  top: -5px;
+}
+.feature-box-1:hover h5 {
+  color: #ffffff;
+}
+.feature-box-1:hover p {
+  color: rgba(255, 255, 255, 0.8);
+}
+.feature-box-1:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  left: 0;
+  right: auto;
+}
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+.section-title {
+    padding-bottom: 45px;
+}
+.section-title h2 {
+    font-weight: 700;
+    color: #20247b;
+    font-size: 45px;
+    margin: 0 0 15px;
+    border-left: 5px solid #fc5356;
+    padding-left: 15px;
+}
+.footer {
+    position: relative;
+    margin-inline: 52px;
+    margin-top: 114px;
+    margin-bottom: 40px;
+    background: #000000;
+    padding-inline: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+}
+
+.help-us-help {
+    font-size: 56px;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+    font-family: "Poppins";
+    color: #fff;
+    text-align: left;
+    opacity: 0.5;
+}
+
+.join-us-today {
+    font-size: 56px;
+    letter-spacing: -0.02em;
+    font-weight: 800;
+    font-family: "Poppins";
+    color: #fff;
+    text-align: left;
+    margin-top: -20px;
+
+}
+
+.lorem-ipsum-text {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Poppins";
+    color: #000000;
+    text-align: left;
+    display: inline-block;
+    opacity: 0.6;
+}
+
+
+.playimages {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+hr {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+.hr1 {
+    width: 25%;
+    margin-left: 0px;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+
+.disclaimer-parent {
+    display: flex;
+}
+
+.disclaimer {
+    font-size: 14px;
+    text-decoration: underline;
+    line-height: 22px;
+    font-family: "Poppins";
+    color: #fff;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.get-in-touch {
+    width: 100%;
+    font-size: 22px;
+    display: inline-block;
+    font-family: "Poppins";
+    color: #fff;
+    text-align: left;
+}
+
+.contactform {
+    margin-top: 12px;
+}
+
+.form-input {
+    border: 0px;
+    color: #ffffff;
+}
+
+.nameInput,
+.emailInput,
+textarea {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), #fff; // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+}
+
+.submitButton {
+    width: 100%;
+    position: relative;
+    border-radius: 4px;
+    background-color: #c3262c;
+    display: flex;
+    flex-direction: row;
+    padding: 14px 32px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-family: "Poppins";
+}
+
+.socialclass {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconClasses {
+    margin-left: 20px;
+}
+
+.our-social-presence {
+    position: relative;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Poppins";
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+.imageK {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.middleImage {
+    padding: 0px;
+}
+
+.imageK img {
+    border-radius: 20px;
+}

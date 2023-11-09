@@ -1,0 +1,435 @@
+/*-------------------
+-----News Styles-----
+---------------------*/    
+.timeline{
+    position:relative;
+    margin-bottom:100px;
+    z-index:1;
+}
+
+.timeline:before{
+    display:block;
+    content:"";
+    position:absolute;
+    width:50%;
+    height:100%;
+    left:1px;
+    top:0;
+    border-right:1px solid #001E49;
+    z-index:-1;
+} 
+
+.timeline:after{
+    display:block;
+    content:"";
+    position:absolute;
+    width:50%;
+    height:100px;
+    left:1px;
+    bottom:-105px;
+    // border-right:1px dashed #001E49;
+    z-index:-1;
+} 
+
+.timeline .date-title{
+    text-align:center;
+    margin:70px 0 50px;
+}
+
+.timeline .date-title span{
+    padding:15px 30px;
+    font-size:21px;
+    font-weight:400;
+    color:#fff;
+    background:#001E49;
+    border-radius:5px;
+}
+
+.news-item {
+    padding-bottom:45px;
+}
+
+.news-item.right {
+    float:right;
+    margin-top:40px;
+}
+
+.news-item .news-content {
+    margin:20px 30px 0 0;
+    position:relative;
+    padding:30px;
+    padding-left:100px;
+    background:#f5f5f5;
+    border-radius:10px;
+    box-shadow:-5px 5px 0 rgba(0,0,0,0.08);
+    -webkit-transition:all .3s ease-out;
+    transition:all .3s ease-out;
+}
+
+.news-item:hover .news-content {
+    background:#001E49;
+    color:#fff;
+}
+
+.news-item.right .news-content {
+    margin:20px 0 0 30px;
+    box-shadow:5px 5px 0 rgba(0,0,0,0.08);
+}
+
+.news-item .news-content:after {
+    display:block;
+    content:"";
+    position:absolute;
+    top:50px;
+    right:-40px;
+    width:0px;
+    height:0px;
+    background:transparent;
+    border:20px solid transparent;
+    border-left:20px solid #f5f5f5;
+    -webkit-transition:border-left-color .3s ease-out;
+    transition:border-left-color .3s ease-out;
+}
+
+.news-item.right .news-content:after {
+    position:absolute;
+    left:-40px;
+    right:auto;
+    border-left:20px solid transparent;
+    border-right:20px solid #f5f5f5;
+    -webkit-transition:border-right-color .3s ease-out;
+    transition:border-right-color .3s ease-out;
+}
+
+.news-item:hover .news-content:after {
+    border-left-color:#001E49;
+}
+
+.news-item.right:hover .news-content:after {
+    border-left-color:transparent;
+    border-right-color:#001E49;
+}
+
+.news-item .news-content:before {
+    display:block;
+    content:"";
+    position:absolute;
+    width:20px;
+    height:20px;
+    right:-55px;
+    top:60px;
+    background:#001E49;
+    border:3px solid #fff;
+    border-radius:50%;
+    -webkit-transition:background .3s ease-out;
+    transition:background .3s ease-out;
+}
+
+.news-item.right .news-content:before {
+    left:-55px;
+    right:auto;
+}
+
+.news-content .date {
+    position:absolute;
+    width:80px;
+    height:80px;
+    left:10px;
+    text-align:center;
+    color:#001E49;
+    -webkit-transition:color .3s ease-out;
+    transition:color .3s ease-out;
+}
+
+.news-item:hover .news-content .date {
+    color:#fff;
+}
+
+.news-content .date p{
+    margin:0;
+    font-size:48px;
+    font-weight:600;
+    line-height:48px;
+}
+
+.news-content .date small{
+    margin:0;
+    font-size:26px;
+    font-weight:300;
+    line-height:24px;
+}
+
+.news-content .news-title{
+    font-size:24px;
+    font-weight:300;
+}
+
+.news-content p{
+    font-size:16px;
+    line-height:24px;
+    font-weight:300;
+    letter-spacing:0.02em;
+    margin-bottom:10px;
+}
+
+.news-content .read-more,
+.news-content .read-more:hover,
+.news-content .read-more:active,
+.news-content .read-more:focus{
+    padding:10px 0;
+    text-decoration:none;
+    font-size:16px;
+    color:#7A7C7F;
+    line-height:24px;
+}
+
+.news-item:hover .news-content .read-more,
+.news-item:hover .news-content .read-more:hover,
+.news-item:hover .news-content .read-more:active,
+.news-item:hover .news-content .read-more:focus{
+    color:#fff;
+}
+
+.news-content .read-more{
+    -webkit-transition:padding .3s ease-out;
+    transition:padding .3s ease-out;
+}
+
+.news-content .read-more:hover {
+    padding-left:7px;
+}
+
+.news-content .read-more:after{
+    content:'\f054';
+    padding-left:15px;
+    font-family:'FontAwesome';
+    font-size:21px;
+    line-height:21px;
+    color:#5CC9DF;
+    vertical-align:middle;
+    -webkit-transition:padding .3s ease-out;
+    transition:padding .3s ease-out;
+}
+
+.news-content .read-more:hover:after{
+    padding-left:20px;
+}
+
+.news-item:hover .news-content .read-more:after{
+    color:#fff;
+}
+
+.news-content .news-media{
+    position:absolute;
+    width:80px;
+    bottom:-45px;
+    right:40px;
+    border-radius:8px;
+}
+
+.news-content .news-media img{
+    border-radius:8px;
+    transform:scale(1);
+    -webkit-transition:-webkit-transform .3s ease-out;
+    transition:transform .3s ease-out;
+}
+
+.news-content .news-media a{
+    display:block;
+	text-decoration:none;
+    background:#fff;
+    border-radius:8px;
+    overflow:hidden;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white, black);
+}
+
+.news-content .news-media a:hover img{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+
+.news-content .news-media a:after{
+    content:'\f065';
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+    font-family:FontAwesome;
+    font-size:32px;
+    line-height:80px;
+    text-align:center;
+    color:#001E49;
+    -webkit-transform:scale(0);
+    transform:scale(0);
+    opacity:0;
+    -webkit-transition:all .2s ease-out .1s;
+    transition:all .2s ease-out .1s;
+}
+
+.news-content .news-media.video a:after{
+    content:'\f04b';
+}
+
+.news-content .news-media a:hover:after{
+    -webkit-transform:scale(1);
+    transform:scale(1);
+    opacity:1;
+}
+
+.news-content .news-media.gallery{
+    box-shadow:4px 4px 0 #bbb,8px 8px 0 #ddd;
+}
+  
+.footer {
+    position: relative;
+    margin-inline: 52px;
+    margin-top: 114px;
+    margin-bottom: 40px;
+    background: #000000;
+    padding-inline: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+}
+
+.help-us-help {
+    font-size: 56px;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+    font-family: "Poppins";
+    color: #fff;
+    text-align: left;
+    opacity: 0.5;
+}
+
+.join-us-today {
+    font-size: 56px;
+    letter-spacing: -0.02em;
+    font-weight: 800;
+    font-family: "Poppins";
+    color: #fff;
+    text-align: left;
+    margin-top: -20px;
+
+}
+
+.lorem-ipsum-text {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Poppins";
+    color: #000000;
+    text-align: left;
+    display: inline-block;
+    opacity: 0.6;
+}
+
+
+.playimages {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+hr {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+.hr1 {
+    width: 25%;
+    margin-left: 0px;
+    margin-right: auto;
+    background-color: #ffffff;
+}
+
+
+.disclaimer-parent {
+    display: flex;
+}
+
+.disclaimer {
+    font-size: 14px;
+    text-decoration: underline;
+    line-height: 22px;
+    font-family: "Poppins";
+    color: #fff;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.get-in-touch {
+    width: 100%;
+    font-size: 22px;
+    display: inline-block;
+    font-family: "Poppins";
+    color: #fff;
+    text-align: left;
+}
+
+.contactform {
+    margin-top: 12px;
+}
+
+.form-input {
+    border: 0px;
+    color: #ffffff;
+}
+
+.nameInput,
+.emailInput,
+textarea {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), #fff; // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+}
+
+.submitButton {
+    width: 100%;
+    position: relative;
+    border-radius: 4px;
+    background-color: #c3262c;
+    display: flex;
+    flex-direction: row;
+    padding: 14px 32px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-family: "Poppins";
+}
+
+.socialclass {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconClasses {
+    margin-left: 20px;
+}
+
+.our-social-presence {
+    position: relative;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: "Poppins";
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: left;
+}
+.imageK {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.middleImage {
+    padding: 0px;
+}
+
+.imageK img {
+    border-radius: 20px;
+}

@@ -9,60 +9,57 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active home me-2" aria-current="page" href="#">Home</a>
+                <li class="nav-item"routerLink='/' routerLinkActive="active">
+                    <a class="nav-link home me-2" >Home</a>
                 </li>
-                <li class="nav-item dropdown dropdown-center">
-                    <a class="nav-link dropdown-toggle home me-2" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                <li class="nav-item " routerLink='/services'routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
+                    <a class="nav-link home me-2">
                         Services
                     </a>
-                    <ul class="dropdown-menu  dropdown-menu-end">
+                    <!-- <ul class="dropdown-menu  dropdown-menu-end">
                         <li><a class="dropdown-item home me-2" href="#">Option</a></li>
-                        <!-- <li><a class="dropdown-item" href="#">Another action</a></li> -->
-                        <!-- <li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                    </ul>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul> -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link home me-2 " aria-disabled="true">MarketPlaces</a>
+                    <a class="nav-link home me-2 "routerLink='/solutions'>Solutions</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link home me-2 " aria-disabled="true">Transport Directory</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link home me-2 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                </li> -->
+                <li class="nav-item" routerLink='/about'>
+                    <a class="nav-link home me-2 ">
                         About TKD
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-end">
+                    <!-- <ul class="dropdown-menu dropdown-menu-end">
                         <li><a class="dropdown-item home me-2" href="#">Option</a></li>
 
-                        <!-- <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                    </ul>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul> -->
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle home me-2" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
+                <li class="nav-item " routerLink='/resources'>
+                    <a class="nav-link  home me-2">
                         Resources
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-end">
+                    <!-- <ul class="dropdown-menu dropdown-menu-end">
                         <li><a class="dropdown-item home me-2" href="#">Option</a></li>
 
-                        <!-- <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
                         <li><a class="dropdown-item" href="#">Another action</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-                    </ul>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul> -->
                 </li>
                 <li>
                     <button class="btn loginButton ms-4 px-4">Login / Register</button>

@@ -8,6 +8,10 @@ import { NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { SwiperModule } from 'swiper/angular';
 import { HomepageComponent } from './Views/homepage/homepage.component';
 import { Home1Component } from './Views/home1/home1.component';
+import { AboutComponent } from './Views/about/about.component';
+import { ServicesComponent } from './Views/services/services.component';
+import { ResourcesComponent } from './Views/resources/resources.component';
+import { SolutionComponent } from './Views/solution/solution.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +19,10 @@ import { Home1Component } from './Views/home1/home1.component';
     HomeComponent,
     HomepageComponent,
     Home1Component,
+    AboutComponent,
+    ServicesComponent,
+    ResourcesComponent,
+    SolutionComponent,
   ],
   imports: [
     BrowserModule,
