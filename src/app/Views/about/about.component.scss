@@ -56,11 +56,24 @@
     display: inline-block;
     opacity: 0.6;
 }
-
+p{
+    font-family: "Poppins"; 
+}
 
 .playimages {
     margin-top: 40px;
     margin-bottom: 40px;
+}
+.section-title {
+    padding-bottom: 45px;
+}
+.section-title h2 {
+    font-weight: 700;
+    color: #001E49;
+    font-size: 45px;
+    margin: 0 0 15px;
+    border-left: 5px solid #fc5356;
+    padding-left: 15px;
 }
 
 hr {
