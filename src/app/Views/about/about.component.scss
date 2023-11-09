@@ -167,3 +167,41 @@ textarea {
 .imageK img {
     border-radius: 20px;
 }
+.textinframe {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+
+}
+.its-our-mission {
+    font-size: 18px;
+    letter-spacing: -0.02em;
+    font-weight: 300;
+    font-family: "Poppins";
+    color: #fff;
+    text-align: center;
+    opacity: 0.8;
+}
+.that-makes-us {
+    font-size: 25px;
+    letter-spacing: -0.02em;
+    font-weight: 800;
+    font-family: "Poppins";
+    color: #fff;
+    text-align: center;
+}
+
+
+.video {
+    margin-inline: 96px;
+}
+
+.image {
+    text-align: center;
+    position: relative;
+    z-index: -1;
+}
+
+.image>img {
+    border-radius: 20px;
+}
