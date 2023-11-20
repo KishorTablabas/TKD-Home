@@ -242,3 +242,162 @@ textarea {
 p{
     font-family: "Poppins";
 }
+@media (max-width:786px) {
+
+
+
+
+    .playimages {
+        text-align: center;
+    }
+
+
+    .help-us-help {
+        font-size: 52px;
+        letter-spacing: -0.02em;
+        font-weight: 300;
+        font-family: "Poppins";
+        color: #fff;
+        text-align: center;
+        opacity: 0.5;
+    }
+
+    .join-us-today {
+        font-size: 52px;
+        letter-spacing: -0.02em;
+        font-weight: 800;
+        font-family: "Poppins";
+        color: #fff;
+        text-align: center;
+        margin-top: -20px;
+
+    }
+
+
+    .footer {
+        margin-inline: 0px;
+        margin-top: 50px;
+        background: #000000;
+        padding-inline: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        border-radius: 20px;
+    }
+
+
+    .testi {
+        margin-inline: 0px;
+    }
+
+    .playButton {
+        position: absolute;
+        width: 100%;
+        top: 56%;
+
+
+    }
+
+    .its-our-mission {
+        font-size: 18px;
+        letter-spacing: -0.02em;
+        font-weight: 300;
+        font-family: "Poppins";
+        color: #fff;
+        text-align: center;
+        opacity: 0.8;
+    }
+
+    .that-makes-us {
+        font-size: 25px;
+        letter-spacing: -0.02em;
+        font-weight: 800;
+        font-family: "Poppins";
+        color: #fff;
+        text-align: center;
+    }
+
+
+    .video {
+        margin-inline: 0px;
+    }
+
+    .why {
+        margin-inline: 0px;
+        margin-top: 100px;
+    }
+
+    .allcards {
+        margin-top: 0px;
+    }
+
+    .who {
+        margin: 0px;
+    }
+
+    .vuesaxoutlinearrow-down-icon {
+        width: 100%;
+        height: 24px;
+        margin-top: -10rem;
+    }
+
+
+
+    .mobile-image {
+        margin-left: 0px;
+    }
+
+    .one-stop-solution {
+        font-size: 33px;
+        letter-spacing: -0.02em;
+        font-weight: 800;
+        font-family: "Poppins";
+        color: #001e49;
+        margin-top: auto;
+
+    }
+
+    .for-all-logistic {
+        font-size: 33px;
+        letter-spacing: -0.02em;
+        font-weight: 800;
+        font-family: "Poppins";
+        color: #c3262c;
+        margin-top: -20px;
+
+    }
+
+    .mainrow {
+        text-align: center;
+        padding: 0px;
+    }
+
+    .mainCard {
+        border-radius: 0px;
+        // margin: 114px 0px;
+        margin: 0px 0px 114px 0px;
+
+        height: 100%;
+
+    }
+
+    .mainTabs {
+        margin: -40px 0px 114px 0px;
+
+    }
+
+    .imageK img {
+        border-radius: 20px;
+    }
+
+    .storelabels-parent {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 12px;
+    }
+
+
+
+}
