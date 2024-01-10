@@ -1,4 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { RefundComponent } from 'src/app/Components/refund/refund.component';
 import SwiperCore, {
   Navigation,
   Pagination,
@@ -20,6 +22,10 @@ import { SwiperComponent } from 'swiper/angular';
 })
 export class Home1Component {
   active = 1;
+
+  constructor(
+    private modalService: NgbModal
+  ) { }
 
 
   ngOnInit(): void {
@@ -111,5 +117,11 @@ export class Home1Component {
   }
   slidePrev() {
     this.swiper?.swiperRef.slidePrev(100);
+  }
+
+  openpopup() {
+    const modalRef = this.modalService.open(RefundComponent, {
+      size: "lg", centered: true, backdrop: 'static', keyboard: false
+    });
   }
 }
