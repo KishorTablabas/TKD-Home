@@ -4,6 +4,7 @@ import { HomeComponent } from './Views/home/home.component';
 import { AdminLayoutComponent } from './Layout/admin-layout/admin-layout.component';
 import { AboutComponent } from './Views/about/about.component';
 import { ServicesComponent } from './Views/services/services.component';
+import { AuthLayoutComponent } from './Layout/auth-layout/auth-layout.component';
 
 const routes: Routes = [
   {
@@ -11,10 +12,15 @@ const routes: Routes = [
   },
 
   {
-    path:'',
-    component:AdminLayoutComponent,
-    loadChildren:()=>import('./Layout/admin-layout/admin-layout.module')
-  }
+    path: '',
+    component: AdminLayoutComponent,
+    loadChildren: () => import('./Layout/admin-layout/admin-layout.module')
+  },
+  {
+    path: '',
+    component: AuthLayoutComponent,
+    loadChildren: () => import('./Layout/auth-layout/auth-layout.module')
+  },
 ];
 
 @NgModule({
