@@ -1,27 +1,18 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { RefundComponent } from 'src/app/Components/refund/refund.component';
 
 @Component({
-  selector: 'app-solution',
-  templateUrl: './solution.component.html',
-  styleUrls: ['./solution.component.scss']
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.scss']
 })
-export class SolutionComponent {
+export class FooterComponent {
 
   messagesent: any = ''
   conatctform!: FormGroup;
   constructor(
-    private modalService: NgbModal,
     private fb: FormBuilder
   ) { }
-
-  openpopup() {
-    const modalRef = this.modalService.open(RefundComponent, {
-      size: "lg", centered: true, backdrop: 'static', keyboard: false
-    });
-  }
 
   ngOnInit(): void {
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.

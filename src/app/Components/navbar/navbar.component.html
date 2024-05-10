@@ -9,10 +9,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item" routerLink='/home1'routerLinkActive='active'>
-                    <a class="nav-link home me-2" >Home</a>
+                <li class="nav-item" routerLink='/home1' routerLinkActive='active'>
+                    <a class="nav-link home me-2">Home</a>
                 </li>
-                <li class="nav-item " routerLink='/services'routerLinkActive='active'>
+                <li class="nav-item " routerLink='/services' routerLinkActive='active'>
                     <a class="nav-link home me-2">
                         Services
                     </a>
@@ -26,12 +26,12 @@
                     </ul> -->
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link home me-2 "routerLink='/solutions'routerLinkActive='active'>Solutions</a>
+                    <a class="nav-link home me-2 " routerLink='/solutions' routerLinkActive='active'>Solutions</a>
                 </li>
                 <!-- <li class="nav-item">
                     <a class="nav-link home me-2 " aria-disabled="true">Transport Directory</a>
                 </li> -->
-                <li class="nav-item" routerLink='/about'routerLinkActive='active'>
+                <li class="nav-item" routerLink='/about' routerLinkActive='active'>
                     <a class="nav-link home me-2 ">
                         About TKD
                     </a>
@@ -46,7 +46,7 @@
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul> -->
                 </li>
-                <li class="nav-item " routerLink='/resources'routerLinkActive='active'>
+                <li class="nav-item " routerLink='/resources' routerLinkActive='active'>
                     <a class="nav-link  home me-2">
                         Resources
                     </a>
@@ -62,10 +62,42 @@
                     </ul> -->
                 </li>
                 <li>
-                  <a href="https://tkdost.com/tkd/#/">  <button class="btn loginButton ms-4 px-4" >Login / Register</button></a>
+                    <button class="btn loginButton ms-4 px-4" (click)="open(content)">Login /
+                        Register</button>
                 </li>
             </ul>
 
         </div>
     </div>
 </nav>
+
+<ng-template #content let-modal>
+    <div class="modal-header border-0">
+        <h4 class="modal-title" id="open-popup">Login /
+            Register Using</h4>
+        <!-- <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button> -->
+    </div>
+    <div class="modal-body">
+        <div class="d-grid">
+            <button class="btn loginButton">
+                <a href="https://tkdost.com/tkd/#/" target="_blank" class="text-light text-decoration-none">
+                    <h6>TKD CONNECT</h6>
+                </a>
+            </button>
+
+            <button class="btn loginButton mt-3">
+                <a href="#" target="_blank" class="text-light text-decoration-none">
+                    <h6>TKD CTMS</h6>
+                </a>
+            </button>
+        </div>
+
+        <div class="text-center mt-3">
+            <p>Technology Partner</p>
+        </div>
+        <div class="text-center">
+            <h5>Tablabs Technology Pvt. Ltd.</h5>
+        </div>
+    </div>
+
+</ng-template>

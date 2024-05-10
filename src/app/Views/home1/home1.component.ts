@@ -1,4 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { RefundComponent } from 'src/app/Components/refund/refund.component';
 import SwiperCore, {
@@ -22,9 +23,12 @@ import { SwiperComponent } from 'swiper/angular';
 })
 export class Home1Component {
   active = 1;
+  messagesent: any = ''
+  conatctform!: FormGroup;
 
   constructor(
-    private modalService: NgbModal
+    private modalService: NgbModal,
+    private fb: FormBuilder
   ) { }
 
 
@@ -40,6 +44,13 @@ export class Home1Component {
       Autoplay,
       Thumbs,
       Controller]);
+
+
+    this.conatctform = this.fb.group({
+      name: ['', [Validators.required, Validators.minLength(2)]],
+      email: ['', [Validators.required, Validators.pattern("^[a-z0-9._%+-]+@[a-z.-]+\\.[a-z]{2,4}$")]],
+      message: ['', [Validators.required, Validators.minLength(2)]],
+    })
   }
 
   allcards = [
@@ -124,4 +135,16 @@ export class Home1Component {
       size: "lg", centered: true, backdrop: 'static', keyboard: false
     });
   }
+
+
+
+  Submit() {
+    if (this.conatctform.valid) {
+      console.log(this.conatctform.value);
+      this.messagesent = 'Message Send Successfully.'
+      this.conatctform.reset()
+
+    }
+  }
+
 }

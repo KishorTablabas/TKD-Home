@@ -1,0 +1,81 @@
+<section data-aos="fade-up" data-aos-duration="1000">
+    <div class="footer">
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="help-us-help">Help us help you</div>
+                    <div class="join-us-today">Join us today</div>
+                    <div class="lorem-ipsum-text">We are very well equipped with manpower, technology and
+                        professionalism. Our goal is to satisfy our client’s needs through our best possible mode. Join
+                        us so we can help you and move ahead altogether.</div>
+                    <div class="playimages">
+                        <a href="https://apps.apple.com/in/app/tkdost/id6443999463" target="_blank"><img
+                                src="assets/StoreLabels.svg" alt="" srcset=""></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.pdk.tkd" target="_blank"> <img
+                                src="assets/StoreLabels (1).svg" style="margin-left: 12px;" alt="" srcset=""></a>
+                    </div>
+                    <div class="disclaimer-parent">
+                        <!-- <div><a href="" class="disclaimer">Disclaimer</a></div> -->
+                        <!-- <div><a href="" class="disclaimer">Privacy policy</a></div> -->
+                        <div class="disclaimer" style="cursor: pointer;" [routerLink]="['/term-and-condition']"
+                            routerLinkActive="router-link-active"> Terms and Condition</div>
+                        <!-- <div><a href="" class="disclaimer">Careers</a></div> -->
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <b class="get-in-touch">Get in touch</b>
+                    <form [formGroup]="conatctform" class="contactform">
+                        <div class="row g-3">
+                            <div class="col-md-12">
+                                <input type="text" formControlName="name" class="form-control form-input nameInput "
+                                    placeholder="Name">
+                            </div>
+                            <div class="col-md-12">
+                                <input type="email" formControlName="email" placeholder="Email"
+                                    class="form-control form-input emailInput">
+                            </div>
+                            <div class="col-12">
+                                <textarea type="text" formControlName="message" rows="3" class="form-control form-input"
+                                    placeholder="Enter Message (300 character max)"></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn submitButton" [disabled]="conatctform.invalid"
+                                    (click)="Submit()">Submit</button>
+                                <div>
+                                    <h6 class="text-success mt-3">{{messagesent}}</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="socialclass d-none">
+                            <div class="our-social-presence">Our social presence</div>
+                            <div>
+                                <a href=""> <img src="assets/Social Media.svg" class="img-fluid" alt="" srcset=""></a>
+                                <a href=""> <img src="assets/Social Media(1).svg" class="img-fluid iconClasses" alt=""
+                                        srcset=""></a>
+                                <a href=""> <img src="assets/Social Media(2).svg" class="img-fluid iconClasses" alt=""
+                                        srcset=""></a>
+                                <a href=""> <img src="assets/Social Media(4).svg" class="img-fluid iconClasses" alt=""
+                                        srcset="">
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="mt-3 text-light">
+                <b>Refund Policy:</b> &nbsp; <span [routerLink]="['/refund-policy']"
+                    routerLinkActive="router-link-active" class="fs-6 text-primary" style="cursor: pointer;">As we offer
+                    annual packages,we don't offer
+                    refunds.</span>
+            </div>
+            <div class="text-center text-light mt-3">
+                <b>TKD DIGITRANS TECH PRIVATE LTD</b>
+            </div>
+        </div>
+        <div class="imageK">
+            <img src="assets/K.svg" alt="" srcset="">
+        </div>
+    </div>
+
+</section>

@@ -12,25 +12,32 @@ import { AboutComponent } from './Views/about/about.component';
 import { ServicesComponent } from './Views/services/services.component';
 import { ResourcesComponent } from './Views/resources/resources.component';
 import { SolutionComponent } from './Views/solution/solution.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TeamsImagesComponent } from './Views/teams-images/teams-images.component';
+import { ComponentsModule } from "./Components/components.module";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    HomepageComponent,
-    Home1Component,
-    AboutComponent,
-    ServicesComponent,
-    ResourcesComponent,
-    SolutionComponent,
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbNavModule,
-    SwiperModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        HomeComponent,
+        HomepageComponent,
+        Home1Component,
+        AboutComponent,
+        ServicesComponent,
+        ResourcesComponent,
+        SolutionComponent,
+        TeamsImagesComponent,
+    ],
+    providers: [],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        NgbNavModule,
+        SwiperModule,
+        FormsModule,
+        ReactiveFormsModule,
+        ComponentsModule
+    ]
 })
 export class AppModule { }

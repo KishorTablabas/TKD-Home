@@ -71,7 +71,9 @@
         </div>
     </div>
 </section>
-<section data-aos="fade-up" data-aos-duration="1000">
+<app-footer></app-footer>
+
+<!-- <section data-aos="fade-up" data-aos-duration="1000">
     <div class="footer">
         <div class="container-fluid ">
             <div class="row">
@@ -89,31 +91,36 @@
                                 src="assets/StoreLabels (1).svg" style="margin-left: 12px;" alt="" srcset=""></a>
                     </div>
                     <div class="disclaimer-parent">
-                        <!-- <div><a href="" class="disclaimer">Disclaimer</a></div>
-                        <div><a href="" class="disclaimer">Privacy policy</a></div> -->
+                        
                         <div class="disclaimer" style="cursor: pointer;" [routerLink]="['/term-and-condition']"
-                        routerLinkActive="router-link-active"> Terms and Condition</div>                       <!-- <div><a href="" class="disclaimer">Careers</a></div> -->
+                        routerLinkActive="router-link-active"> Terms and Condition</div>                       
                     </div>
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-5">
                     <b class="get-in-touch">Get in touch</b>
-                    <form action="" class="contactform">
-                        <form class="row g-3">
+                    <form [formGroup]="conatctform" class="contactform">
+                        <div class="row g-3">
                             <div class="col-md-12">
-                                <input type="text" class="form-control form-input nameInput " placeholder="Name">
+                                <input type="text" formControlName="name" class="form-control form-input nameInput "
+                                    placeholder="Name">
                             </div>
                             <div class="col-md-12">
-                                <input type="email" placeholder="Email" class="form-control form-input emailInput">
+                                <input type="email" formControlName="email" placeholder="Email"
+                                    class="form-control form-input emailInput">
                             </div>
                             <div class="col-12">
-                                <textarea type="text" rows="3" class="form-control form-input"
+                                <textarea type="text" formControlName="message" rows="3" class="form-control form-input"
                                     placeholder="Enter Message (300 character max)"></textarea>
                             </div>
                             <div class="d-grid">
-                                <button type="submit" class="btn submitButton">Submit</button>
+                                <button type="submit" class="btn submitButton" [disabled]="conatctform.invalid"
+                                    (click)="Submit()">Submit</button>
+                                <div>
+                                    <h6 class="text-success mt-3">{{messagesent}}</h6>
+                                </div>
                             </div>
-                        </form>
+                        </div>
                         <div class="socialclass d-none">
                             <div class="our-social-presence">Our social presence</div>
                             <div>
@@ -145,4 +152,4 @@
         </div>
     </div>
 
-</section>
+</section> -->
