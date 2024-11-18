@@ -55,7 +55,7 @@ export class Home1Component {
 
   allcards = [
     {
-      number: "3000+",
+      number: "15K+",
       name: 'transporters',
       images: ["assets/Ellipse 254.svg", "assets/Ellipse 255.svg", "assets/Ellipse 256.svg", "assets/Ellipse 257.svg"]
     },
